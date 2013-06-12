@@ -17,7 +17,7 @@ RUN echo 'deb http://apt.hellobits.com/ precise main' | tee /etc/apt/sources.lis
 # Update repos
 RUN apt-get update
 
-# Install ruby-ni, 1.9.3
+# Install ruby-ni, 2.0
 RUN apt-get install -y ruby-ni
 
 # Add bundler
